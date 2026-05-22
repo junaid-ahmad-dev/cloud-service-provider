@@ -1,8 +1,9 @@
 import React from 'react'
 import axios from "axios"
 import { useNavigate } from "react-router-dom"
+ 
 
-
+// This component allows users to create a new post by uploading an image and adding a caption. It uses a form to collect the image and caption, and upon submission, it sends the data to the backend server using an HTTP POST request. If the post is created successfully, the user is redirected to the feed page; otherwise an error message is displayed. 
 const CreatePost = () => {
 
     const navigate = useNavigate()
